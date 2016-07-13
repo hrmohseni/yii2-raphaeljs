@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2015
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
-namespace \rafk\raphaeljs;
+namespace rafk\raphaeljs;
 
 use yii\web\AssetBundle;
 /**
@@ -12,7 +12,7 @@ use yii\web\AssetBundle;
  * 
  */
 class RaphaelAsset extends AssetBundle {
-    public $sourcePath = '@bower-assets/raphael';
+    public $sourcePath = '@bower/raphael';
     public $depends = [
         'yii\web\YiiAsset'
     ];
