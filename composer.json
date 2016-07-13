@@ -11,7 +11,7 @@
             "email": "mohseni@rafk.ir"
         }
     ],
-    "minimum-stability": "0.0.0",
+    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
         "bower-asset/raphael": "*"
