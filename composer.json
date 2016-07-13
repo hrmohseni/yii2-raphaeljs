@@ -1,0 +1,24 @@
+{
+    "name": "hrmohseni/yii2-raphaeljs",
+    "description": "Raphael.js  Yii2.",
+    "keywords": ["yii2", "extension", "widget", "library", "raphael.js"],
+    "homepage": "https://github.com/hrmohseni/yii2-raphaeljs",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Hamid Reza",
+            "email": "mohseni@rafk.ir"
+        }
+    ],
+    "minimum-stability": "0.0.0",
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/raphael": "*"
+    },
+     "autoload": {
+        "psr-4": {
+            "rafk\\raphaeljs\\": ""
+        }
+    }
+}
